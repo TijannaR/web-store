@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Permanent+Marker&display=swap');
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	min-width: 100vw;
+	justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background-color: mintcream;
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.text-white {
+  text-decoration: none;
+}
+
+.klasa2 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.klasa2-slike {
+  display: flex;
+  height: 100%;
+}
+
+.klasa2-tekst {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  padding: 20px;
+  font-family: "Alfa Slab One",sans-serif;
+  background-color: rgba(49, 71, 58, 0.5);
+  letter-spacing: 2px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  z-index: 10;
+}
+
+.klasa3 {
+  background-color: #e6f0ec;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: 900;
+  color: rgb(49, 71, 58);
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.klasa4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+  .klasa4 {
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+.klasa5 {
+  text-align: center;
+}
+
+.klasa5 img {
+    border-radius: 50px;
+}
+
+@media (min-width: 768px) {
+  .klasa5 {
+    text-align: left;
+  }
+}
+
+.klasa12 {
+ font-size: 24px;
+ color: rgb(49, 71, 58);
+}
+.klasa12 h1 {
+  text-align: center;
+  background-color: #B1D0C7;
+  color: rgb(49, 71, 58);
+  font-weight: 600;
+  padding: 5px;
+  border-bottom: 5px solid  rgb(49, 71, 58) ;
+}
+
+
+.klasa13 {
+ font-size: 24px;
+ position: relative;
+ background-color: white;
+ height: 100%;
+ color: rgb(49, 71, 58);
+}
+.klasa13 h1 {
+  text-align: center;
+  padding: 5px;
+  color: rgb(49, 71, 58);
+  background-color: #D0B1BA;
+  border-bottom: 5px solid rgb(49, 71, 58);
+}
+
+.klasa14 {
+ font-size: 24px;
+ position: relative;
+ background-color: white;
+ color: rgb(49, 71, 58);
+ height: 100%;
+}
+
+.klasa14 h1 {
+  text-align: center;
+  padding: 15px;
+  color: rgb(49, 71, 58);
+  background-color: #FFD859;
+  border-bottom: 5px solid rgb(49, 71, 58); 
+}
+.klasa14 p{
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 70px;
+  padding-bottom: 150px;
+}
+@media (max-width: 768px) {
+  .klasa12, .klasa13, .klasa14 {
+    font-size: 18px;
+  }
+
+  .container-okvir h1 {
+    font-size: 1.2rem;
+  }
+
+  .container-okvir img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .klasa2-tekst {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  #popust {
+    width: 90%;
+    height: auto;
+    top: 100%;
+  }
+}
+
+
+#popust-link a:hover {
+  background-color: rgb(118, 118, 7);
+  border-radius: 10px;
+  color:green;
+  transition: all 0.3s ease;
+}
+
+
+#popust-link a{
+  padding: 5px 20px;
+}
+#platforma-link a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 5px 20px;
+}
+#platforma-link a:hover{
+  background-color: tomato;
+  color: white;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+#platforma-link a{
+  color:tomato;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+}
+
+.nav-link {
+  margin-left: 100px;
+}
+
+.nav-highlight {
+  color: #db9e2d;
+}
+
+.me-2 {
+  border-radius: 50px;
+}
+
+
+.slike1 {
+  width: 25%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.slike2 {
+  width: 50%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.pomocna {
+  margin: 0 auto;
+  width: 80%;
+}
+
+
+
+.macva,
+.adresa {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .container2 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.list-inline-item {
+  padding-right: 20px;
+  border-right: 1px solid white;
+}
+
+.list-inline-item a:hover {
+  color: #FF8559;
+}
+.list-inline-item:last-child {
+  border-right: none;
+}
+.list-inline-item a{
+  color: white;
+}
+.strelica2 img {
+  transition: transform 0.3s ease;
+}
+
+.naslovna {
+  color: #FFB89E;
+  text-decoration: none;
+}
+.naslovna a:visited{
+  color: #b94014;
+}
+.naslovna a:link{
+  color: #FFB89E;
+}
+
+.strelica2 img:hover {
+  transform: translateY(-5px);
+}
+.bi-facebook:hover{
+  color: blue;
+
+}
+.bi-facebook{
+  color: white;
+}
+.bi-instagram:hover{
+  color: rgb(210, 62, 161);
+}
+.bi-instagram{
+  color: white;
+}
+#dugme-info{
+  padding: 5px 25px;
+  border-radius: 13px;
+  border: 2px solid rgb(49, 71, 58);
+}
+#dugme-info:hover{
+  color: white;
+  background-color: #59D3FF;
+}
+
+.container-onama{
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.5);
+}
+.container-tradicija{
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.5);
+    padding: 15px;
+}
+#slika1 {
+    margin-right: -10px;
+}
+
+.container-platforma{
+    margin-bottom: 30px;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.5);
+}
+
+.container-popust{
+  margin-bottom: 600px;
+}
+
+.platforma {
+  background-color: #FF8559;
+  color:rgb(83, 80, 80);
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 10px 0px;
+}
+
+.container-kartice {
+  margin-bottom: 100px;
+  color: #31473A;
+}
+
+.container-kartice h1{
+  background-color: #FF8559;
+  padding: 100px 0px;
+}
+
+#popust {
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-ovce{
+  background-image: url("slike/ovce.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.container-ovce button{
+  height: 80px;
+  font-size: 30px;
+  border: none;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(237, 244, 242, 0.5);
+  margin: 0 auto;
+}
+
+
+.container-okvir{
+  display: flex;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+  flex-direction: column;
+  text-align: left;
+  padding: 10px;
+  min-height: 330px;
+  height: auto;
+}
+
+
+.okvir-ikonice {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.slika-picture {
+  border: 1px solid black;
+  padding: 20px 0px;
+  margin: 0 auto;
+  width: 90%;
+}
+.slikeOnama img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.container-ikonice {
+  padding: 24px;
+  color: rgb(49, 71, 58);;
+}
+
+
+.kupovina{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #31473A;
+}
+
+.kupovina-boja{
+  color:#FFD859;  
+}
+.meni {
+  font-size: 25px;
+  font-weight: 400;
+  color: #31473A;
+}
+#dugme {
+  border-radius: 50px;
+  letter-spacing: 3px;
+  padding: 0 25px;
+  color: #31473A;
+  cursor:default;
+}
+
+.kupac a{
+  text-decoration: none;
+  color: #31473A;
+}
+#kartice-boja{
+  color: #31473A;
+  border: none;
+}
+#kartice-boja:hover{
+  background-color: #FFB89E;
+}
+
+.container-ikonice > .col-6 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .container-ikonice > .col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-ikonice > .col-6 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.container-okvir {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-ovce button {
+  max-width: 80%;
+}
+
+@media (max-width: 576px) {
+  .kupovina {
+  font-size: 1rem !important;
+  padding: 0 10px;
+  text-align: center;
+  }
+}
+
+/* Osnovni stil za obične dugmiće */
+.custom-btn {
+  color: #31473A !important;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: all 0.1s ease;
+}
+.custom-btn:hover {
+  background-color: #31473A;
+  border-radius: 30px;
+  color: #EDF4F2 !important;
+}
+
+/* Stil za Popust dugme */
+.btn-popust {
+  color: #FFD859 !important;
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+.btn-popust:hover {
+  background-color: #FFD859;
+  color: #31473A !important;
+}
+
+/* Stil za Pristupite platformi dugme */
+.btn-pristup {
+  color: #FF8559 !important;
+  padding: 6px 12px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  
+}
+.btn-pristup:hover {
+  background-color: #FF8559;
+  color: #EDF4F2 !important;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+}
+
+
+
+
